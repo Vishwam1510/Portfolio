@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<script src="app.js"></script>
+<title>Portfolio</title>
+</head>
+<body>  
+  <header>  
+    <div class="container">  
+      <nav class="flex items-centre justify-between">  
+          <div class="left flex justfiy-right">  
+          <div class="logo">  
+            <img src="https://thumbs.dreamstime.com/b/vk-v-k-letter-logo-design-initial-letter-vk-linked-circle-uppercase-monogram-logo-red-blue-vk-logo-v-k-design-vk-v-k-vk-v-k-196991333.jpg" width="50px" alt="logo">  
+          </div>  
+          <div>  
+            <a href="#home">Home</a>  
+            <a href="#about">About</a>  
+            <a href="#education">Education</a>                 
+          </div>  
+        </div>  
+        <div class="right">  
+          <button class="btn btn-primary"><a href="#Contact">Contact</a></button>  
+        </div>  
+      </nav>
+    </div>  
+    <div id="home" class="hero flex items-centre justify-between">
+      <div class="left flex-1 justify-center">
+      <img src="IMG_1333.jpg" alt="Profile">
+      </div>
+      <div class="right flex-1">
+      <h6>Vishwam Kapadia</Kbd></h6>
+      <h1>I am<br> <span>Web Designer</span></h1>
+      <p>This is my first website portfolio. I am so glad that I can finally make it. I have attached my resume below! You can just click on it and download it!</p>
+      <div>
+      <button class="btn btn-secondary"><a href ="resume.pdf" attributes-list download >DOWNLOAD CV</a></button>
+      </div>
+      </div>
+      </div>      
+  </header>
+  
+
+  <section id="about">
+    <div class="site-section" id="about-section">
+     
+            <div class="bg-light pt-5">
+        <table font-size=>
+          <td width="700">
+            
+          <h2 align="center">About Me!</h2><br><br>
+                <p font-size="18px">I am from a city named Surat which is located in Gujarat, India. I have completed my high school in India and now I am pursuing Computer Programming course in Seneca College. It has been 8 months already since I moved to Canada. I love traveling and I am a music lover. I love gaming and the game which I am recently into is Valorant. My goal is to pursue a degree in a programming course and I will surely achieve that.</p>
+                <br><br>
+                <h2 align="center"> Academic honesty</h2>
+                <p font-size="18px">
+                   I declare that this assignment is my own work in accordance with
+                  Seneca Academic Policy. No part of this assignment has been
+                  copied manually or electronically from any other source
+                  (including web sites) or distributed to other students.</p>
+              </td>
+          <td width="700" align="center">
+          <table>
+              <tr><h2>Basic Information</h2></tr>
+              <br><br>
+              <tr>
+                  <td><h3>Age :       </h3></td>
+                  <td>18</td>
+              </tr>
+              <tr>
+                  <td><h3>Email :     </h3></td>
+                  <td> vkapadia3@myseneca.ca</td>
+              </tr>
+              <tr>
+                  <td><h3>Language :   </h3></td>
+                  <td>English, Hindi, Gujarati </td>
+              </tr>
+              <tr>
+                  <td><h3>Course :     </h3></td>
+                  <td>WEB222</td>
+              </tr>
+              <tr>
+                  <td><h3>Section :    </h3></td>
+                  <td>NCC</td>
+              </tr>
+              <tr>
+                  <td><h3>Student ID : </h3></td>
+                  <td>154933212</td>
+              </tr>
+              <tr>
+                  <td><h3>Instructor : </h3></td>
+                  <td>Mr. Mark Merrit</td>
+              </tr>
+          </table>
+          </p>
+          </td>
+          </table>
+      </div>
+  </div>     
+
+    </section>
+
+
+    <section id="education">
+      <div class="container">
+      <h1 class="services-head">Education</h1>
+      <div class="card-grid">
+      <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/183/183757.png">
+      <h2>High School</h2>
+      <p>I have completed my High School from METAS Adventist School(Surat) which is located in India. 
+        <p>I have scored 90 percent in my high school!</p>
+      </p>5
+      </div><br><br>
+      
+      <div class="card">
+      <img src="https://cdn2.iconfinder.com/data/icons/maki/100/college-512.png">
+      <h2>Current:- Advanced Diploma</h2>
+      <p>I am currently pursuing an advanced diploma course which is Computer Programming and Analysis course in Seneca College </p>
+      </div><br><br>
+      <div class="card">
+      <img src="https://www.freeiconspng.com/thumbs/medal-icon/award-medal-icon-33.jpg">
+      <h2>Extras</h2>
+      <p>I have achieved first place in International Maths Olympiad which took place in India.</p>
+      <p></p>
+    </div>
+      </div>
+      </div>
+      </section>
+      <section id="Contact">
+        <div class="div-contact">
+          <h1 class="section-title" align="center">Contact me</h1><br><br>
+          <form
+            name="myForm"
+            method="post"
+            action="https://httpbin.org/post"
+            onsubmit="return validateForm()"
+          >
+          <div class="card">
+            <table >
+              <tr>
+                <td ><label>Name</label></td>
+                <td>
+                  <input id="name" type="text" name="vname" placeholder="Name" />
+                </td>
+              </tr>
+    
+              <tr>
+                <td><label>Email</label></td>
+                <td>
+                  <input
+                    id="email"
+                    type="email"
+                    name="vemail"
+                    placeholder="Email"
+                  />
+                </td>
+              </tr>
+    
+              <tr>
+                <td><label>Address</label></td>
+                <td>
+                  <textarea
+                    id="message"
+                    name="vaddress"
+                    placeholder="Message"
+                  ></textarea>
+                </td>
+              </tr>
+    
+              <tr>
+                <td><label>City</label></td>
+                <td>
+                  <input
+                    id="city"
+                    list="cities"
+                    type="text"
+                    name="vcity"
+                    placeholder="City"
+                  />
+                </td>
+                <datalist id="cities">
+                  <option value="Toronto">
+                  <option value="Ottawa">
+                  <option value="Victoria">
+                  <option value="Edmonton">
+                  <option value="Calgary">
+                </datalist>
+              </tr>
+    
+              <tr>
+                <td><label>Postal Code</label></td>
+                <td>
+                  <input
+                    id="postcode"
+                    type="text"
+                    name="vpostcode"
+                    placeholder="Postal Code"
+                  />
+                </td>
+              </tr>
+    
+              <tr>
+                <td><label>State</label></td>
+                <td>
+                  <select id="state" name="vstate" id="vstate">
+                    <option value="Nova Scotia">Nova Scotia</option>
+                    <option value="British Columbia">British Columbia</option>
+                    <option value="Manitoba"></option>
+                    <option value="Nunavut"></option>
+                    <option value="Alberta">Alberta</option>
+                  </select>
+                </td>
+              </tr>
+    
+              <tr>
+                <td><label>What this is about?</label></td>
+                <td>
+                  <label>
+                    <input
+                      id="question"
+                      type="radio"
+                      name="abt"
+                      value="Questions"
+                      onclick="return addHourlyrate(1)"
+                    />
+                    Questions
+                  </label>
+                  <label>
+                    <input
+                      id="comment"
+                      type="radio"
+                      name="abt"
+                      value="Comments"
+                      onclick="return addHourlyrate(1)"
+                    />
+                    Comments
+                  </label>
+                  <label>
+                    <input
+                      id="hiring"
+                      type="radio"
+                      name="abt"
+                      value="Hiring"
+                      onclick="return addHourlyrate(0)"
+                    />
+                    Hiring
+                  </label>
+                </td>
+              </tr>
+    
+              <tr>
+                <td><label id="lbl-hrate">Hourly Rate</label></td>
+                <td>
+                  <input
+                    id="hrate"
+                    type="text"
+                    name="rate"
+                    placeholder="Hourly Rate"
+                  />
+                </td>
+              </tr>
+    
+              <tr>
+                <td><label>Message</label></td>
+                <td>
+                  <textarea name="vmsg" placeholder="Message" rows="5"></textarea>
+                </td>
+              </tr>
+    
+              <tr>
+                <td colspan="2">
+                  <p style="text-align: center">
+                    <input onclick="validateForm()" type="submit" value="Submit" />
+                  </p>
+                </td>
+              </tr>
+            </table>
+          </form>
+          </div>
+        </div>
+  
+</html>
